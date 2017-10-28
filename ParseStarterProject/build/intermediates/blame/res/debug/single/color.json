@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\7bd4f4756b313d09013d407f3a35889a02d411cd\\output\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\7bd4f4756b313d09013d407f3a35889a02d411cd\\output\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\523e16554864225066cd48f5b275d92a6c6a296d\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\523e16554864225066cd48f5b275d92a6c6a296d\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    }
+]

@@ -1,0 +1,7 @@
+#Sat Oct 28 16:34:52 IST 2017
+base.0=X\:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_93d4c432b835b8717a1cdc715e35781d8a2ff747
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=X\:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_96a3532bdf8fccb216a6c23b69f48faee08128fc\\classes.dex
+base.1=X\:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_96a3532bdf8fccb216a6c23b69f48faee08128fc
+file.0=X\:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_93d4c432b835b8717a1cdc715e35781d8a2ff747\\classes.dex

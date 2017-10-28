@@ -1,0 +1,375 @@
+-- Merging decision tree log ---
+manifest
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lenovo\.android\build-cache\530d69c5058ca41e424ce8af8fb1955bb81fa974\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lenovo\.android\build-cache\530d69c5058ca41e424ce8af8fb1955bb81fa974\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:16:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:17:5-98
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:17:22-95
+application
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:19:5-66:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Lenovo\.android\build-cache\a28bbd83cb561a01db9be469eacff3efc8be0b62\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Lenovo\.android\build-cache\8ced508fc0d1ea113406e96e0ec08c09d1a0ff79\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Lenovo\.android\build-cache\9da4eca7a7b21b0ae83031efd2122f1d806721db\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\Lenovo\.android\build-cache\4f27286bfed2c5a60283e4b59f131d79a0639fb1\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-ads:10.0.1] C:\Users\Lenovo\.android\build-cache\fa0efb0912bc8d9da6a847ee090d1c9877c4e879\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\Lenovo\.android\build-cache\bc6e0647bf3ea5445f374423f741dbcb36c1effc\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\Lenovo\.android\build-cache\9d116028e1d8ce568b99c81dbf17ac7696deb8c0\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lenovo\.android\build-cache\530d69c5058ca41e424ce8af8fb1955bb81fa974\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lenovo\.android\build-cache\478f40f4068899e9c9b158ad3700127aa51678ea\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Lenovo\.android\build-cache\3f7ead6ee213fb2564e90ef8bba683a0fe08e0e3\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\Lenovo\.android\build-cache\f8b7c237b741326b674947e1fb5f7ee7c08ebf8c\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lenovo\.android\build-cache\523e16554864225066cd48f5b275d92a6c6a296d\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Lenovo\.android\build-cache\b126a9e4ae13a55690a06a52f4a7d2dc893ed7fc\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lenovo\.android\build-cache\57f1b7724aff28194669b226b402bb986fa71eea\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Lenovo\.android\build-cache\69766ac6d83777c015817738b261cf390b0dec8f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Lenovo\.android\build-cache\e9bf6d732c8d3df12a1bff60180a8e7d44b7325b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Lenovo\.android\build-cache\9cf0fd4d4a2ef671d4b373e3f70a2c46eb5b1b14\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Lenovo\.android\build-cache\1e7de00dd42cb6699787e9504e58f337b1159577\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Lenovo\.android\build-cache\08c38dae661ecb8a2ec1029c3a8a5d8eed49e8fb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Lenovo\.android\build-cache\9989967698af9ee3996a06d1ef3f5e878b756c93\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Lenovo\.android\build-cache\b912cb6089f3e2f9509118d4e0102d33baf738c9\output\AndroidManifest.xml:7:5-11:19
+	android:label
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:23:9-41
+	android:allowBackup
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:22:9-38
+	android:theme
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:20:9-43
+meta-data#com.parse.APPLICATION_ID
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:25:9-27:52
+	android:value
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:26:13-52
+meta-data#com.parse.CLIENT_KEY
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:28:9-30:56
+	android:value
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:30:13-53
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:29:13-48
+activity#com.parse.makemymosaic.MainActivity
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:33:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:38:27-74
+activity#com.parse.makemymosaic.Chunked
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:41:9-45
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:41:19-42
+activity#com.parse.makemymosaic.CustomPhotoGalleryActivity
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:42:9-64
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:42:19-61
+activity#com.parse.makemymosaic.Uber
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:43:9-42
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:43:19-39
+meta-data#com.google.android.geo.API_KEY
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:52:9-54:55
+	android:value
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:54:13-52
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:53:13-58
+activity#com.parse.makemymosaic.UserLocation
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:56:9-58:68
+	android:label
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:58:13-65
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:57:13-41
+activity#com.parse.makemymosaic.ViewRequests
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:59:9-50
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:59:19-47
+activity#com.parse.makemymosaic.ViewRiderLocation
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:60:9-62:74
+	android:label
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:62:13-71
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:61:13-46
+activity#com.parse.makemymosaic.Login
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:63:9-43
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:63:19-40
+activity#com.parse.makemymosaic.Destination
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:64:9-49
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:64:19-46
+activity#com.parse.makemymosaic.SelectCars
+ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:65:9-57
+	android:name
+		ADDED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml:65:19-45
+uses-sdk
+INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Lenovo\.android\build-cache\a28bbd83cb561a01db9be469eacff3efc8be0b62\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Lenovo\.android\build-cache\8ced508fc0d1ea113406e96e0ec08c09d1a0ff79\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\24bf35d640fab83c232e596492109a2030ea381c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Lenovo\.android\build-cache\9da4eca7a7b21b0ae83031efd2122f1d806721db\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\Lenovo\.android\build-cache\4f27286bfed2c5a60283e4b59f131d79a0639fb1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-ads:10.0.1] C:\Users\Lenovo\.android\build-cache\fa0efb0912bc8d9da6a847ee090d1c9877c4e879\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\Lenovo\.android\build-cache\b3b01155da51d66ade15d2ea11d163606282365c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\Lenovo\.android\build-cache\bc6e0647bf3ea5445f374423f741dbcb36c1effc\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\Lenovo\.android\build-cache\9d116028e1d8ce568b99c81dbf17ac7696deb8c0\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lenovo\.android\build-cache\530d69c5058ca41e424ce8af8fb1955bb81fa974\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lenovo\.android\build-cache\478f40f4068899e9c9b158ad3700127aa51678ea\output\AndroidManifest.xml:3:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Lenovo\.android\build-cache\9b7dfab5ca49d916f54743eef89a668009c34076\output\AndroidManifest.xml:18:5-42
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] C:\Users\Lenovo\.android\build-cache\7bd4f4756b313d09013d407f3a35889a02d411cd\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Lenovo\.android\build-cache\3f7ead6ee213fb2564e90ef8bba683a0fe08e0e3\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\Lenovo\.android\build-cache\f8b7c237b741326b674947e1fb5f7ee7c08ebf8c\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lenovo\.android\build-cache\523e16554864225066cd48f5b275d92a6c6a296d\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Lenovo\.android\build-cache\b126a9e4ae13a55690a06a52f4a7d2dc893ed7fc\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lenovo\.android\build-cache\57f1b7724aff28194669b226b402bb986fa71eea\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Lenovo\.android\build-cache\69766ac6d83777c015817738b261cf390b0dec8f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Lenovo\.android\build-cache\e9bf6d732c8d3df12a1bff60180a8e7d44b7325b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Lenovo\.android\build-cache\9cf0fd4d4a2ef671d4b373e3f70a2c46eb5b1b14\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Lenovo\.android\build-cache\1e7de00dd42cb6699787e9504e58f337b1159577\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Lenovo\.android\build-cache\08c38dae661ecb8a2ec1029c3a8a5d8eed49e8fb\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Lenovo\.android\build-cache\9989967698af9ee3996a06d1ef3f5e878b756c93\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Lenovo\.android\build-cache\b912cb6089f3e2f9509118d4e0102d33baf738c9\output\AndroidManifest.xml:5:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Lenovo\.android\build-cache\a28bbd83cb561a01db9be469eacff3efc8be0b62\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Lenovo\.android\build-cache\8ced508fc0d1ea113406e96e0ec08c09d1a0ff79\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\24bf35d640fab83c232e596492109a2030ea381c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Lenovo\.android\build-cache\69766ac6d83777c015817738b261cf390b0dec8f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Lenovo\.android\build-cache\e9bf6d732c8d3df12a1bff60180a8e7d44b7325b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Lenovo\.android\build-cache\9cf0fd4d4a2ef671d4b373e3f70a2c46eb5b1b14\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Lenovo\.android\build-cache\1e7de00dd42cb6699787e9504e58f337b1159577\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Lenovo\.android\build-cache\08c38dae661ecb8a2ec1029c3a8a5d8eed49e8fb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Lenovo\.android\build-cache\9989967698af9ee3996a06d1ef3f5e878b756c93\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lenovo\.android\build-cache\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\output\AndroidManifest.xml:26:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Lenovo\.android\build-cache\9efece6a457300acf81faa534f96a53ce984ec36\output\AndroidManifest.xml:25:25-75
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Lenovo\.android\build-cache\0242d34abe4b6e1edc1cd2b8fea2b8b0c955ccd6\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lenovo\.android\build-cache\530d69c5058ca41e424ce8af8fb1955bb81fa974\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lenovo\.android\build-cache\530d69c5058ca41e424ce8af8fb1955bb81fa974\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Lenovo\.android\build-cache\530d69c5058ca41e424ce8af8fb1955bb81fa974\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Lenovo\.android\build-cache\9045995932a9540b041a14e529a17a2ee1a162dd\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Lenovo\.android\build-cache\687193323380236da3834ae2c803ade634afcc79\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lenovo\.android\build-cache\478f40f4068899e9c9b158ad3700127aa51678ea\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lenovo\.android\build-cache\478f40f4068899e9c9b158ad3700127aa51678ea\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lenovo\.android\build-cache\478f40f4068899e9c9b158ad3700127aa51678ea\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lenovo\.android\build-cache\478f40f4068899e9c9b158ad3700127aa51678ea\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Lenovo\.android\build-cache\478f40f4068899e9c9b158ad3700127aa51678ea\output\AndroidManifest.xml:6:79-143
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lenovo\.android\build-cache\523e16554864225066cd48f5b275d92a6c6a296d\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lenovo\.android\build-cache\523e16554864225066cd48f5b275d92a6c6a296d\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lenovo\.android\build-cache\523e16554864225066cd48f5b275d92a6c6a296d\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Lenovo\.android\build-cache\523e16554864225066cd48f5b275d92a6c6a296d\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lenovo\.android\build-cache\57f1b7724aff28194669b226b402bb986fa71eea\output\AndroidManifest.xml:20:9-121
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Lenovo\.android\build-cache\b912cb6089f3e2f9509118d4e0102d33baf738c9\output\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lenovo\.android\build-cache\57f1b7724aff28194669b226b402bb986fa71eea\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Lenovo\.android\build-cache\57f1b7724aff28194669b226b402bb986fa71eea\output\AndroidManifest.xml:20:20-65

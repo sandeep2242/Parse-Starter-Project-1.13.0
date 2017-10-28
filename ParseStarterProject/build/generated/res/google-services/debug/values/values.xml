@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">382655959084-8eauqj70mi6ouofmkcm0stt5qrr8u361.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://makemymosaic-1cc2f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">382655959084</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUvt4mGCQx-zdmsEOm6lcS9rAq8u0G7MY</string>
+    <string name="google_app_id" translatable="false">1:382655959084:android:5f64da6beacc8724</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUvt4mGCQx-zdmsEOm6lcS9rAq8u0G7MY</string>
+    <string name="google_storage_bucket" translatable="false">makemymosaic-1cc2f.appspot.com</string>
+</resources>

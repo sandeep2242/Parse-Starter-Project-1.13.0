@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.14.1\b35bb849e7bda4497fe6dfce4bd9f332087c2e3b\parse-android-1.14.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b35bb849e7bda4497fe6dfce4bd9f332087c2e3b">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.14.1_c7c686a343af1d1484afa22b243b45950a2e286a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\b912cb6089f3e2f9509118d4e0102d33baf738c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fbb372ac09050774ceab6dac958540fbcfda7e99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_96a3532bdf8fccb216a6c23b69f48faee08128fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.parse\parse-livequery-android\1.0.4\de5b5b8c2429a62cc90054f519c66f8906863ae5\parse-livequery-android-1.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de5b5b8c2429a62cc90054f519c66f8906863ae5">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\parse-livequery-android-1.0.4_396c35dcfc10c712f4f90c7c6ef46cf3cba86398\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lenovo\.android\build-cache\b912cb6089f3e2f9509118d4e0102d33baf738c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\classes_fbb372ac09050774ceab6dac958540fbcfda7e99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lenovo\.android\build-cache\9b7dfab5ca49d916f54743eef89a668009c34076\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\classes_4f06f7a2a98e3d75ed06c9f3ecfd89b9b13380de.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4412354bb7415564b0978923edf598d6b1a01d7f">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_93d4c432b835b8717a1cdc715e35781d8a2ff747\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lenovo\.android\build-cache\a6b161d8fa8a4c3a932a4ed87c21acb9f23a5ec3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="X:\projects\Parse-Starter-Project-1.13.0\ParseStarterProject\build\intermediates\pre-dexed\debug\classes_0ecc7d6a5e3eae51b11e0920a6afb8cfa7672829.jar" />
+    </item>
+
+</items>

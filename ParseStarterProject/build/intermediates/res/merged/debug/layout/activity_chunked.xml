@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chunked"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.parse.makemymosaic.Chunked">
+
+<include
+    android:id="@+id/actn"
+    layout="@layout/cmn_action_bar"/>
+
+
+
+    <ImageView
+        android:id="@+id/imgs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imgs2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/btnAddPhots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:background="@color/yellow"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/add_photos"/>
+
+        <TextView
+            android:id="@+id/btnSaveImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:textColor="@color/black"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:text="@string/save"/>
+
+        <TextView
+            android:id="@+id/btnSumbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:textColor="@color/black"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:text="@string/sumbit"/>
+    </LinearLayout>
+
+</FrameLayout>

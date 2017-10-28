@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "382655959084",
+    "firebase_url": "https://makemymosaic-1cc2f.firebaseio.com",
+    "project_id": "makemymosaic-1cc2f",
+    "storage_bucket": "makemymosaic-1cc2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382655959084:android:5f64da6beacc8724",
+        "android_client_info": {
+          "package_name": "com.parse.makemymosaic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382655959084-0nb0l758oabl8dt2pbdgu2gra389ig1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parse.makemymosaic",
+            "certificate_hash": "01965dc301b9604b880afb70748c31bb1a854cf5"
+          }
+        },
+        {
+          "client_id": "382655959084-8eauqj70mi6ouofmkcm0stt5qrr8u361.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUvt4mGCQx-zdmsEOm6lcS9rAq8u0G7MY"
+        },
+        {
+          "current_key": "AIzaSyAZxiKpY2VADdE9BKkisNPeg-kR2x9rO1g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382655959084-8eauqj70mi6ouofmkcm0stt5qrr8u361.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

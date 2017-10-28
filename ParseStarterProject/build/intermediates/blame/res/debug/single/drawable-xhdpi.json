@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\micro.png",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\drawable-xhdpi\\micro.png"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_name.png",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\hatch.png",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\drawable-xhdpi\\hatch.png"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sedan.png",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\drawable-xhdpi\\sedan.png"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\suv.png",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\drawable-xhdpi\\suv.png"
+    }
+]
