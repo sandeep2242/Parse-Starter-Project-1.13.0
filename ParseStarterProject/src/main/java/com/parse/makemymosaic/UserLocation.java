@@ -56,16 +56,13 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
         GoogleMap.OnMarkerClickListener,
         GoogleMap.OnMarkerDragListener {
 
-    private GoogleMap mMap;
+    public static final int REQUEST_LOCATION_CODE = 99;
     TextView rqstUber, cancelRqst, otp, close;
     Boolean requestActive = false;
     Location location;
-    String driverUsername = "", cabId = "",driverName;
+    String driverUsername = "", cabId = "", driverName;
     ParseGeoPoint driverLocation = new ParseGeoPoint(0, 0);
     ParseGeoPoint driverChangedLocation = new ParseGeoPoint(0, 0);
-    private GoogleApiClient client;
-    private LocationRequest locationRequest;
-    public static final int REQUEST_LOCATION_CODE = 99;
     int PROXIMITY_RADIUS = 10000;
     Object dataTransfer[] = new Object[2];
     String url;
@@ -77,7 +74,11 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
     LinearLayout rqstRel, rqstRel2;
     RelativeLayout rqstRel1;
     Random r = new Random();
-
+    double drivLat, drivLng;
+    boolean IF_DURATION_DISTANCE_EXISTS = true;
+    private GoogleMap mMap;
+    private GoogleApiClient client;
+    private LocationRequest locationRequest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +98,9 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
         Intent x = getIntent();
         cabId = x.getStringExtra("cabId");
         driverName = x.getStringExtra("driverName");
+        drivLat = x.getDoubleExtra("drivLocLat", 0);
+        drivLng = x.getDoubleExtra("drivLocLng", 0);
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission();
@@ -114,6 +118,16 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
                 rqstRel1.setVisibility(View.VISIBLE);
 
                 if (!requestActive) {
+                    dataTransfer = new Object[3];
+                    url = getDirectionsUrl(location);
+                    getDirectionsData = new GetDirectionsData();
+                    dataTransfer[0] = mMap;
+                    dataTransfer[1] = url;
+                    dataTransfer[2] = new LatLng(drivLat, drivLng);
+
+                    getDirectionsData.execute(dataTransfer);
+
+
                     mProgressBar = (ProgressBar) findViewById(R.id.progressbar);
                     mProgressBar.setProgress(i);
                     mCountDownTimer = new CountDownTimer(120000, 1000) {
@@ -124,6 +138,35 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
                             i++;
                             mProgressBar.setProgress((int) i * 100 / (120000 / 1000));
 
+                            if (getDirectionsData.distance != null) {
+                                if (IF_DURATION_DISTANCE_EXISTS) {
+                                    ParseObject request = new ParseObject("Requests");
+                                    request.put("requesterUserName", ParseUser.getCurrentUser().getUsername());
+                                    request.put("driverName", driverName);
+                                    request.put("distance", getDirectionsData.distance);
+                                    request.put("duration", getDirectionsData.duration);
+
+                                    ParseACL parseACL = new ParseACL();
+                                    parseACL.setPublicWriteAccess(true);
+                                    parseACL.setPublicReadAccess(true);
+                                    request.setACL(parseACL);
+
+                                    request.saveInBackground(new SaveCallback() {
+                                        @Override
+                                        public void done(ParseException e) {
+                                            if (e == null) {
+                                                rqstUber.setText("Show OTP");
+                                                requestActive = true;
+                                                updateLocation(location);
+                                                rqstUber.setVisibility(View.GONE);
+                                                IF_DURATION_DISTANCE_EXISTS = false;
+                                            } else {
+                                                Log.i("sand", "Uber not Requested");
+                                            }
+                                        }
+                                    });
+                                }
+                            }
                             if (!driverUsername.equals("")) {
                                 randomNo = r.nextInt((100000 - 10000) + 1) + 10000;
                                 rqstRel1.setVisibility(View.GONE);
@@ -144,30 +187,7 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
                         }
                     };
                     mCountDownTimer.start();
-                    ParseObject request = new ParseObject("Requests");
-                    request.put("requesterUserName", ParseUser.getCurrentUser().getUsername());
-                    request.put("driverName",driverName);
 
-                    ParseACL parseACL = new ParseACL();
-                    parseACL.setPublicWriteAccess(true);
-                    parseACL.setPublicReadAccess(true);
-                    request.setACL(parseACL);
-
-                    request.saveInBackground(new SaveCallback() {
-                        @Override
-                        public void done(ParseException e) {
-                            if (e == null) {
-                                rqstUber.setText("Show OTP");
-                                requestActive = true;
-                                updateLocation(location);
-                                rqstUber.setVisibility(View.GONE);
-
-
-                            } else {
-                                Log.i("sand", "Uber not Requested");
-                            }
-                        }
-                    });
                 } else {
                     rqstRel1.setVisibility(View.GONE);
                     rqstRel2.setVisibility(View.VISIBLE);
@@ -269,7 +289,7 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
 
                 if (!driverUsername.equals("")) {
 
-                    ParseQuery<ParseUser> userParseQuery = ParseUser.getQuery();
+                    ParseQuery<ParseUser> userParseQuery = ParseUser.getQuery();// todo removing parse user query and using intent Lat Lng
                     userParseQuery.whereEqualTo("username", driverUsername);
                     userParseQuery.findInBackground(new FindCallback<ParseUser>() {
                         @Override
@@ -418,12 +438,20 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
     }
 
     private String getDirectionsUrl(Location location) {
-        Log.i("sandeepDHami", driverLocation.getLatitude() + "," + driverLocation.getLongitude() + "," + location.getLatitude() + "," + location.getLongitude());
-        StringBuilder googleDirectionsUrl = new StringBuilder("https://maps.googleapis.com/maps/api/directions/json?");
-        googleDirectionsUrl.append("origin=" + location.getLatitude() + "," + location.getLongitude());
-        googleDirectionsUrl.append("&destination=" + driverLocation.getLatitude() + "," + driverLocation.getLongitude());
-        googleDirectionsUrl.append("&key=" + "AIzaSyApUV0esfjnRGRGDw0O1kqgPRDpRe5UANk");   //  MyApp2
-
+        StringBuilder googleDirectionsUrl;
+        if (driverLocation.getLatitude() != 0) {
+            Log.i("sandeepDHami", driverLocation.getLatitude() + "," + driverLocation.getLongitude() + "," + location.getLatitude() + "," + location.getLongitude());
+            googleDirectionsUrl = new StringBuilder("https://maps.googleapis.com/maps/api/directions/json?");
+            googleDirectionsUrl.append("origin=" + location.getLatitude() + "," + location.getLongitude());
+            googleDirectionsUrl.append("&destination=" + driverLocation.getLatitude() + "," + driverLocation.getLongitude());
+            googleDirectionsUrl.append("&key=" + "AIzaSyApUV0esfjnRGRGDw0O1kqgPRDpRe5UANk");   //  MyApp2
+        } else {
+            Log.i("sandeepDHami", drivLat + "," + drivLng + "," + location.getLatitude() + "," + location.getLongitude());
+            googleDirectionsUrl = new StringBuilder("https://maps.googleapis.com/maps/api/directions/json?");
+            googleDirectionsUrl.append("origin=" + location.getLatitude() + "," + location.getLongitude());
+            googleDirectionsUrl.append("&destination=" + drivLat + "," + drivLng);
+            googleDirectionsUrl.append("&key=" + "AIzaSyApUV0esfjnRGRGDw0O1kqgPRDpRe5UANk");   //  MyApp2
+        }
 
         return googleDirectionsUrl.toString();
     }

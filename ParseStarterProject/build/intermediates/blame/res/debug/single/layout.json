@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Lenovo\\.android\\build-cache\\b912cb6089f3e2f9509118d4e0102d33baf738c9\\output\\res\\layout\\amu_webview.xml"
     },
     {
-        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\jobs_1_single_row.xml",
-        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\layout\\jobs_1_single_row.xml"
-    },
-    {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_destination.xml",
         "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\layout\\activity_destination.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\jobs_1_single_row.xml",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\layout\\jobs_1_single_row.xml"
     },
     {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -28,12 +28,12 @@
         "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\layout\\activity_custom_photo_gallery.xml"
     },
     {
-        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_item.xml",
-        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\layout\\viewpager_item.xml"
-    },
-    {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\vr_single_row.xml",
         "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\layout\\vr_single_row.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_item.xml",
+        "source": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\layout\\viewpager_item.xml"
     },
     {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",

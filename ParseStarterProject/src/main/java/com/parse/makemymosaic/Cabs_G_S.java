@@ -1,5 +1,7 @@
 package com.parse.makemymosaic;
 
+import com.parse.ParseGeoPoint;
+
 import java.util.List;
 
 /**
@@ -12,6 +14,7 @@ public class Cabs_G_S {
     private String CabImages, DriverName, Price,ObjId,CabName;
     private int TotalSeats, BookedSeats,Discount;
     private List Seats;
+    private ParseGeoPoint DriverLocation;
 
     public String getCabImages() {
         return CabImages;
@@ -33,16 +36,16 @@ public class Cabs_G_S {
         return DriverName;
     }
 
-    public void setCabName(String cabName) {
-        CabName = cabName;
+    public void setDriverName(String driverName) {
+        DriverName = driverName;
     }
 
     public String getCabName() {
         return CabName;
     }
 
-    public void setDriverName(String driverName) {
-        DriverName = driverName;
+    public void setCabName(String cabName) {
+        CabName = cabName;
     }
 
     public String getPrice() {
@@ -61,27 +64,35 @@ public class Cabs_G_S {
         Seats = seats;
     }
 
-    public void setTotalSeats(int totalSeats) {
-        TotalSeats = totalSeats;
-    }
-
     public int getTotalSeats() {
         return TotalSeats;
     }
 
-    public void setBookedSeats(int bookedSeats) {
-        BookedSeats = bookedSeats;
+    public void setTotalSeats(int totalSeats) {
+        TotalSeats = totalSeats;
     }
 
     public int getBookedSeats() {
         return BookedSeats;
     }
 
-    public void setDiscount(int discount) {
-        Discount = discount;
+    public void setBookedSeats(int bookedSeats) {
+        BookedSeats = bookedSeats;
     }
 
     public int getDiscount() {
         return Discount;
+    }
+
+    public void setDiscount(int discount) {
+        Discount = discount;
+    }
+
+    public ParseGeoPoint getDriverLocation() {
+        return DriverLocation;
+    }
+
+    public void setDriverLocation(ParseGeoPoint driverLocation) {
+        DriverLocation = driverLocation;
     }
 }

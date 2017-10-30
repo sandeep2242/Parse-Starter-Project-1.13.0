@@ -62,6 +62,7 @@ public class GetDirectionsData extends AsyncTask<Object, String, String> {
             markerOptions.title(duration);
             markerOptions.title(distance);
 
+
             Log.i("sandeep", distance + " " + duration);
             if (mMap != null) {
                 mMap.addMarker(markerOptions);

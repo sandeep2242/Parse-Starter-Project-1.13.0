@@ -15,10 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.widget.ArrayAdapter;
 
-import com.google.android.gms.maps.model.LatLng;
-import com.google.maps.android.SphericalUtil;
 import com.parse.FindCallback;
 import com.parse.LocationCallback;
 import com.parse.ParseException;
@@ -40,10 +37,6 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
 
 
     ArrayList<String> listViewContent;
-    ArrayList<String> usernames;
-    ArrayList<Double> lat;
-    ArrayList<Double> lng;
-    ArrayAdapter arrayAdapter;
     LocationManager locationManager;
     String provider;
     Location location;
@@ -55,11 +48,10 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
     ParseGeoPoint requesterLocation;
     ParseGeoPoint requesterSecondLocation;
     RecyclerView recyclerView;
-    private List<Rqst_G_S> list = new ArrayList<>();
     int newSize = 0, oldSize = 0;
-    private int mInterval = 5000;
     Handler handler = new Handler();
-
+    private List<Rqst_G_S> list = new ArrayList<>();
+    private int mInterval = 5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,13 +78,16 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
 
             }
         };
-        locationManager.requestLocationUpdates(provider, 400, 1, this);
+        locationManager.requestLocationUpdates(provider, 2000, 1, this);
 
         location = locationManager.getLastKnownLocation(provider);
 
         if (location != null) {
             //updateLocation();
             onLocationChanged(location);
+            new ViewRqstTask(location).execute();
+        } else {
+            locationManager.requestLocationUpdates(provider, 2000, 1, this);
         }
         time();
 
@@ -164,7 +159,7 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
     public void onLocationChanged(Location location) {
 
         this.location = location;
-        new ViewRqstTask(location).execute();
+
 
     }
 
@@ -224,6 +219,7 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
                                     for (ParseObject country2 : oc) {
 
                                         if (country2 != null) {
+                                            country2.put("driverLocation", userLocation);
                                             if (listViewContent != null) {
                                                 country2.put("bookedSeats", listViewContent.size());   // booked seats
                                             } else {
@@ -250,7 +246,7 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Requests");
             query.whereEqualTo("driverName", ParseUser.getCurrentUser().getUsername());
             query.whereNear("requesterLocation", userLocation);
-            query.setLimit(1000);
+            query.setLimit(10);
             query.findInBackground(new FindCallback<ParseObject>() {
                 @Override
                 public void done(List<ParseObject> objects, ParseException e) {
@@ -263,7 +259,7 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
 
                                 /*if (object.get("driverUsername") == null) {*/
 
-                                requesterLocation = object.getParseGeoPoint("requesterLocation");
+                              /*  requesterLocation = object.getParseGeoPoint("requesterLocation");
                                 LatLng from = new LatLng(userLocation.getLatitude(), userLocation.getLongitude());
                                 LatLng to = new LatLng(requesterLocation.getLatitude(), requesterLocation.getLongitude());
 
@@ -277,14 +273,15 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
                                 getDirectionsData.execute(dataTransfer);
                                 //Double distanceInKm = userLocation.distanceInKilometersTo(object.getParseGeoPoint("requesterLocation"));
                                 Double dis = SphericalUtil.computeDistanceBetween(from, to);
-                                Double disOneDp = (double) Math.round(dis * 10) / 10;
+                                Double disOneDp = (double) Math.round(dis * 10) / 10;*/
 
                                 Rqst_G_S rqstGS = new Rqst_G_S();
                                 rqstGS.setLat(object.getParseGeoPoint("requesterLocation").getLatitude());
                                 rqstGS.setLng(object.getParseGeoPoint("requesterLocation").getLongitude());
                                 rqstGS.setUsernames(object.getString("requesterUserName"));
                                 rqstGS.setLocation(location);
-                                rqstGS.setListViewContent(String.valueOf(disOneDp) + " Km");
+                                rqstGS.setDistance(object.getString("distance"));
+                                rqstGS.setDistance(object.getString("duration"));
                                 list.add(rqstGS);
                             }
                             newSize = list.size();
@@ -306,7 +303,7 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
             if (newSize > oldSize) {
                 Log.i("size", String.valueOf(newSize + " " + oldSize));
                 recyclerView.setNestedScrollingEnabled(false);
-                VR_Adapter load = new VR_Adapter(ViewRequests.this, list, location);
+                VR_Adapter load = new VR_Adapter(ViewRequests.this, list);
                 LinearLayoutManager layoutManager = new LinearLayoutManager(ViewRequests.this);
                 recyclerView.setLayoutManager(layoutManager);
                 recyclerView.setAdapter(load);

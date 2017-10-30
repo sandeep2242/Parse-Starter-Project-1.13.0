@@ -2,9 +2,7 @@ package com.parse.makemymosaic;
 
 import android.content.Context;
 import android.content.Intent;
-import android.location.Location;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,12 +18,10 @@ import java.util.List;
 class VR_Adapter extends RecyclerView.Adapter<VR_Adapter.MyViewHolder> {
     private Context context;
     private List<Rqst_G_S> rqstGSList = null;
-    private Location location;
 
-    public VR_Adapter(ViewRequests context, List<Rqst_G_S> list, Location location) {
+    public VR_Adapter(ViewRequests context, List<Rqst_G_S> list) {
         this.context = context;
         this.rqstGSList = list;
-        this.location = location;
 
     }
 
@@ -42,9 +38,9 @@ class VR_Adapter extends RecyclerView.Adapter<VR_Adapter.MyViewHolder> {
 
         int pos = position;
         final Rqst_G_S item = rqstGSList.get(pos);
-        holder.distance.setText(item.getListViewContent());
+        holder.distance.setText(item.getDistance());
+        holder.duration.setText(item.getDuration());
         holder.username.setText(item.getUsernames());
-        Log.i("dhamiji",item.getLocation().getLatitude()+" "+item.getLocation().getLongitude());
 
         holder.vrLinear.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,8 +54,6 @@ class VR_Adapter extends RecyclerView.Adapter<VR_Adapter.MyViewHolder> {
                 context.startActivity(i);
             }
         });
-        Log.i("sandeep", item.getUsernames());
-
     }
 
     @Override
@@ -69,13 +63,14 @@ class VR_Adapter extends RecyclerView.Adapter<VR_Adapter.MyViewHolder> {
 
     class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView username,distance;
+        TextView username, distance, duration;
         LinearLayout vrLinear;
         public MyViewHolder(View v) {
             super(v);
 
             username = (TextView) v.findViewById(R.id.username);
             distance = (TextView) v.findViewById(R.id.distance);
+            duration = (TextView) v.findViewById(R.id.duration);
             vrLinear = (LinearLayout) v.findViewById(R.id.vr_linear);
         }
     }

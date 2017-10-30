@@ -8,11 +8,27 @@ import android.location.Location;
 
 class Rqst_G_S {
 
-    String ListViewContent;
+    String ListViewContent, Distance, Duration;
     String Usernames;
     Double Lat;
     Double Lng;
     Location Location;
+
+    public String getDuration() {
+        return Duration;
+    }
+
+    public void setDuration(String duration) {
+        Duration = duration;
+    }
+
+    public String getDistance() {
+        return Distance;
+    }
+
+    public void setDistance(String distance) {
+        Distance = distance;
+    }
 
     public String getListViewContent() {
         return ListViewContent;

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Oct 28 16:34:53 IST 2017
+#Sat Oct 28 19:45:52 IST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=X\:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_btn_colored_borderless_text_material.xml

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Lenovo\\.android\\build-cache\\fa3df4bc0865c7f28e57f2957ef743ca5eafd2d4\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "X:\\projects\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",

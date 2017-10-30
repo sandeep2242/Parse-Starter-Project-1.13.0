@@ -29,29 +29,6 @@ public class JobsAdapter extends RecyclerView.Adapter<JobsAdapter.MyViewHolder> 
 
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView name, fare, seats, bookSingle, bookWholeCab, ifBooked;
-        ImageView cabImage;
-        LinearLayout linear3;
-        View mview;
-
-        MyViewHolder(View v) {
-            super(v);
-            mview = v;
-            name = (TextView) v.findViewById(R.id.cabName);
-            fare = (TextView) v.findViewById(R.id.cabFare);
-            seats = (TextView) v.findViewById(R.id.cabSeats);
-            bookWholeCab = (TextView) v.findViewById(R.id.bookWhole);
-            bookSingle = (TextView) v.findViewById(R.id.bookSingle);
-            ifBooked = (TextView) v.findViewById(R.id.ifBooked);
-            linear3 = (LinearLayout) v.findViewById(R.id.linear3);
-            cabImage = (ImageView) v.findViewById(R.id.cabImage);
-
-
-        }
-    }
-
-
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
@@ -95,6 +72,8 @@ public class JobsAdapter extends RecyclerView.Adapter<JobsAdapter.MyViewHolder> 
                     Intent i = new Intent(context, UserLocation.class);
                     i.putExtra("cabId", item.getObjId());
                     i.putExtra("driverName",item.getDriverName());
+                    i.putExtra("drivLocLat", item.getDriverLocation().getLatitude());
+                    i.putExtra("drivLocLng", item.getDriverLocation().getLongitude());
                     context.startActivity(i);
                 }
             });
@@ -106,6 +85,8 @@ public class JobsAdapter extends RecyclerView.Adapter<JobsAdapter.MyViewHolder> 
                     i.putExtra("type", true);         //if true whole cab is booked
                     i.putExtra("cabId", item.getObjId());
                     i.putExtra("driverName",item.getDriverName());
+                    i.putExtra("drivLocLat", item.getDriverLocation().getLatitude());
+                    i.putExtra("drivLocLng", item.getDriverLocation().getLongitude());
                     context.startActivity(i);
                 }
             });
@@ -120,6 +101,28 @@ public class JobsAdapter extends RecyclerView.Adapter<JobsAdapter.MyViewHolder> 
         return jobs_g_sList.size();
 
 
+    }
+
+    class MyViewHolder extends RecyclerView.ViewHolder {
+        TextView name, fare, seats, bookSingle, bookWholeCab, ifBooked;
+        ImageView cabImage;
+        LinearLayout linear3;
+        View mview;
+
+        MyViewHolder(View v) {
+            super(v);
+            mview = v;
+            name = (TextView) v.findViewById(R.id.cabName);
+            fare = (TextView) v.findViewById(R.id.cabFare);
+            seats = (TextView) v.findViewById(R.id.cabSeats);
+            bookWholeCab = (TextView) v.findViewById(R.id.bookWhole);
+            bookSingle = (TextView) v.findViewById(R.id.bookSingle);
+            ifBooked = (TextView) v.findViewById(R.id.ifBooked);
+            linear3 = (LinearLayout) v.findViewById(R.id.linear3);
+            cabImage = (ImageView) v.findViewById(R.id.cabImage);
+
+
+        }
     }
 
 

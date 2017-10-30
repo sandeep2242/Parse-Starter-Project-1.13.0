@@ -21,8 +21,8 @@ public class SelectCars extends AppCompatActivity {
 
     LinearLayout micro, sedan, hatch, suv;
     String type;
-    private List<Cabs_G_S> list = new ArrayList<>();
     String imgUrl;
+    private List<Cabs_G_S> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +89,7 @@ public class SelectCars extends AppCompatActivity {
                     cabsGS.setBookedSeats(country.getInt("bookedSeats"));
                     cabsGS.setTotalSeats(country.getInt("totalNoOfSeats"));
                     cabsGS.setDiscount(country.getInt("discount"));
+                    cabsGS.setDriverLocation(country.getParseGeoPoint("driverLocation"));
                     cabsGS.setObjId(country.getObjectId());
                     list.add(cabsGS);
 
